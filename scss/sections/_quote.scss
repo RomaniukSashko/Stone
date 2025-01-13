@@ -1,0 +1,24 @@
+.quote {
+    padding-top: 127px;
+    padding-bottom: 132px;
+    background-image: url(../images/quote-bcg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__text {
+        color: #C7AA8B;
+        font-size: 47px;
+        font-weight: 400;
+        line-height: 1.17;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 2px;
+            background-color: #C7AA8B;
+            margin-top: 23px;
+        }
+    }
+}
