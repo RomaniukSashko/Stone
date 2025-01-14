@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./style/main.min.css">
   </head>
   <body>
@@ -69,30 +68,36 @@
       <!-- Секція Переваги -->
       <section class="advantages">
         <div class="container">
-          <h2 class="advantages__title" hidden>Advantages</h2>
+          <h2 class="advantages__main__title" hidden>Advantages</h2>
           <ul class="advantages__list">
             <li class="advantages__item">
-              <p class="advantages__number">001</p>
-              <h3 class="advantages__title">RESEARCH</h3>
-              <svg class="advantages__image">
-                <use href="./images/symbol-defs.svg#lamp"></use>
-              </svg>
+              <div class="advantages__flex">
+                <p class="advantages__number">001</p>
+                <h3 class="advantages__title">RESEARCH</h3>
+                <svg class="advantages__icon">
+                  <use href="./images/symbol-defs.svg#lamp"></use>
+                </svg>
+              </div>
               <p class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>
             </li>
             <li class="advantages__item">
-              <p class="advantages__number">002</p>
-              <h3 class="advantages__title">BUILD</h3>
-              <svg class="advantages__image">
-                <use href="./images/symbol-defs.svg#gadgets"></use>
-              </svg>
+              <div class="advantages__flex">
+                <p class="advantages__number">002</p>
+                <h3 class="advantages__title">BUILD</h3>
+                <svg class="advantages__icon">
+                  <use href="./images/symbol-defs.svg#gadgets"></use>
+                </svg>
+              </div>
               <p class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>
             </li>
             <li class="advantages__item">
-              <p class="advantages__number">003</з>
-              <h3 class="advantages__title">OPTIMIZE</h3>
-              <svg class="advantages__image">
-                <use href="./images/symbol-defs.svg#graphic"></use>
-              </svg>
+              <div class="advantages__flex">
+                <p class="advantages__number">003</з>
+                <h3 class="advantages__title">OPTIMIZE</h3>
+                <svg class="advantages__icon">
+                  <use href="./images/symbol-defs.svg#graphic"></use>
+                </svg>
+              </div>
               <p class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>
             </li>
           </ul>
@@ -108,100 +113,108 @@
       <!-- Секція Наша Команда -->
       <section class="team">
         <div class="container">
-          <h2 class="team__title">THE TEAM</h2>
-          <ul class="team__list">
-            <li class="team__item">
-              <img src="./images/peter.jpg" alt="peter" class="team__image">
-              <h3 class="team__name">Peter Walkin</h3>
-              <p class="team__job">Founder</p>
-              <ul class="team__social">
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#facebook-old"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="team__item">
-              <img src="./images/robert.jpg" alt="robert" class="team__image">
-              <h3 class="team__name">Robert Porter</h3>
-              <p class="team__job">Developer</p>
-              <ul class="team__social">
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#facebook-old"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="team__item">
-              <img src="./images/dina.jpg" alt="dina" class="team__image">
-              <h3 class="team__name">Dina Johnson</h3>
-              <p class="team__job">Designer</p>
-              <ul class="team__social">
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#be"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#ball"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="team__link">
-                    <svg class="social__icon">
-                      <use href="./images/symbol-defs.svg#instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+          <div class="team__flex">
+            <h2 class="team__title">THE TEAM</h2>
+            <ul class="team__list">
+              <li class="team__item">
+                <img src="./images/peter.jpg" alt="peter" class="team__image">
+                <div class="team__padding">
+                  <h3 class="team__name">Peter Walkin</h3>
+                  <p class="team__job">Founder</p>
+                  <ul class="team__social">
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#facebook-old"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="team__item">
+                <img src="./images/robert.jpg" alt="robert" class="team__image">
+                <div class="team__padding">
+                  <h3 class="team__name">Robert Porter</h3>
+                  <p class="team__job">Developer</p>
+                  <ul class="team__social">
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#facebook-old"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="team__item">
+                <img src="./images/dina.jpg" alt="dina" class="team__image">
+                <div class="team__padding">
+                  <h3 class="team__name">Dina Johnson</h3>
+                  <p class="team__job">Designer</p>
+                  <ul class="team__social">
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#be"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#ball"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="team__social__item">
+                      <a href="#" class="team__social__link">
+                        <svg class="team__social__icon">
+                          <use href="./images/symbol-defs.svg#instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <!-- Секція Відгуки -->
@@ -222,16 +235,20 @@
       </section>
     </main>
     <!-- Підвал -->
-    <footer>
+    <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="footer__link">
-          <svg class="footer__icon">
-            <use href="./images/symbol-defs.svg#logo"></use>
-          </svg>
-        </a>
-        <p class="footer__rights">2014 Stone Creative Agency</p>
-        <button type="button" class="footer__button">GET IN TOUCH WITH US</button>
-        <p class="footer__address">1423 Elk St, Brooklyn NY, 82328</p>      
+        <div class="footer__flex">
+          <div class="footer__logo">
+            <a href="./index.html" class="footer__link">
+              <svg class="footer__icon">
+                <use href="./images/symbol-defs.svg#logo"></use>
+              </svg>
+            </a>
+            <p class="footer__rights">2014 Stone Creative Agency</p>
+          </div>
+          <button type="button" class="footer__button">GET IN TOUCH WITH US</button>
+          <p class="footer__address">1423 Elk St, Brooklyn NY, 82328</p>
+        </div>      
       </div>
     </footer>
   </body>

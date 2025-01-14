@@ -1,0 +1,52 @@
+.testimonials {
+    background-color: #F7F7F7;
+    padding-top: 79px;
+    padding-bottom: 104px;
+
+    &__title {
+        color: rgba(50, 50, 50, 0.36);
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.33;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 2px;
+            background-color: rgba(50, 50, 50, 0.18);
+            margin-top: 14px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 46px;
+    }
+
+    &__item {
+        width: 361px;
+    }
+
+    &__text {
+        color: #4D4D4D;
+        text-align: center;
+        font-family: Vollkorn;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.11;
+        margin-bottom: 21px;
+    }
+
+    &__name {
+        color: #C7AA8B;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.43;
+    }
+}
